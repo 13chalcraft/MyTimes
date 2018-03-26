@@ -1,3 +1,5 @@
+/* Header */
+
 header {
   display: flex;
   position: fixed;
@@ -7,18 +9,31 @@ header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  color: MediumAquamarine;
   border-width: 0 0 1px 0;
   border-style: solid;
   border-color: black;
-  text
+  justify-content: space-between;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  color: MediumAquamarine;
+}
+
+.logo img{
+  margin: 0 20px;
+}
+
+
 nav {
-  justify-content: flex-end;
+  margin: 0 80px 0 0;
 }
 
 nav span {
   display: inline-block;
   padding: 20px 10px;
+}
+nav a, a:visited, a:hover, a:active {
+  color: black;
 }
